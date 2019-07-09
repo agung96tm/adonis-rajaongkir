@@ -6,19 +6,24 @@
   "scripts": {
     "test": "node japaFile.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agung96tm/adonis-rajaongkir.git"
+  },
   "keywords": [
     "adonisjs",
     "package",
     "rajaongkir",
     "shipping charges"
   ],
-  "author": "agung96tm",
+  "author": "Agung Yuliyanto <agung.96tm@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@adonisjs/fold": "^4.0.9",
     "got": "^9.6.0",
     "query-string": "^6.8.1"
   },
+  "homepage": "https://github.com/agung96tm/adonis-rajaongkir#readme",
   "devDependencies": {
     "@adonisjs/generic-exceptions": "^2.0.1",
     "japa": "^2.0.10"

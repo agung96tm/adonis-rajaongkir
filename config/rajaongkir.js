@@ -1,5 +1,7 @@
 'use strict'
 
+const Env = use('Env')
+
 module.exports = {
-  API_KEY: 'SET_YOUR_API_KEY',
+  API_KEY: Env.get('RAJAONGKIR_TOKEN', 'OVER_HERE'),
 }
